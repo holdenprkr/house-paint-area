@@ -14,7 +14,9 @@ public class SimpleCalculation {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        double house_length, house_width, house_height, window_height, window_width, door_height, door_width;
+        double house_length, house_width, house_height;
+        double window_height, window_width;
+        double door_height, door_width;
         int doors, windows;
         
         Scanner in = new Scanner(System.in);
